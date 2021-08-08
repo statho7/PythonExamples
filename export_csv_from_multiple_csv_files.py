@@ -27,4 +27,5 @@ if __name__ == '__main__':
     # Install pandas if you do not have already
     os.system("pip install pandas")
     
+    # str(sys.argv[1]) is the path we want to save our combined csv file and sys.argv[2:] the paths of the csv files we want to combine
     Create_the_combined_csv_file(str(sys.argv[1]),sys.argv[2:])
